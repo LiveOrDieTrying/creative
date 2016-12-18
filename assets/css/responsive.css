@@ -1,0 +1,24 @@
+/*------------------------------------------------------------------
+[Table of contents]
+- Navbar
+-------------------------------------------------------------------*/
+
+/*01. Navbar */
+  
+@media (max-width:768px) {
+  .navbar-toggle{
+    margin: 20px 15px 25px;
+  }
+  a.navbar-brand.navbar-link{
+    margin: 0px 15px 25px;
+  }
+
+  ul.nav.navbar-nav li a:hover{
+    -webkit-animation-duration: 0s;
+    border-bottom-color: #9E9E9E;
+    border-top-color: #9E9E9E;
+    text-decoration:uppercase;
+    color: #9E9E9E;
+
+  }
+}
